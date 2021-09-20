@@ -7,22 +7,97 @@
 /* Stili Tags */
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #DCDCDC;
     background-color: black;
 }
+
 
 /* Stili  Classi*/
 
 .containerHeader{
-    padding: 10px 20px;
+    padding: 11px 20px;
     text-align: right;
 }
 
 .containerHeader__btn{
-    color: white;
+    color: #DCDCDC;
     background-color: #4b4c4f;
     padding: 6px;
     border-radius: 5px;
     border: 0;
 }
 
+.containerMain{
+    height: calc(100vh - 100px);
+    padding-bottom: 50px;
+}
+
+.containerCards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: calc(100%);
+    overflow: hidden;
+}
+
+.containerCards__card{
+    width: calc(100% / 5 - 30px);
+    min-width: 200px;
+    max-width: 300px;
+    height: calc(100% / 5);
+    min-height: 150px;
+    max-height: 200px;
+    flex-shrink: 0;
+    border: 2px solid black;
+    position: relative;
+    background-image: url(../img/jeffBezos.jpg);
+    background-size: cover;
+}
+
+.containerCards__card:hover{
+    border: 2px solid yellow;
+}
+
+.containerCards__card__participantName{
+    position: absolute;
+    bottom: 0;
+    color: #23242779;
+    padding: 2px 5px;
+}
+
+.containerArrow{
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    padding: 10px 25px;
+}
+
+.containerArrow--right{
+    right: 0;
+}
+
+.containerArrow__arrow{
+    display: block;
+    font-size: 50px;
+    color: rgb(127, 127, 127);
+}
+
+.containerArrow__arrow--right{
+    color: rgb(91, 184, 249);
+}
+
+.containerFooter{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(35, 35, 35);
+}
+
+.containerFooter__endMeeting{
+    background-color: rgb(74, 75, 77);
+    height: 100%;
+}
 /* Modifiers */
