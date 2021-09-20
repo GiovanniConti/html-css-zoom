@@ -63,7 +63,7 @@ body{
 .containerCards__card__participantName{
     position: absolute;
     bottom: 0;
-    color: #23242779;
+    background-color: #23242779;
     padding: 2px 5px;
 }
 
