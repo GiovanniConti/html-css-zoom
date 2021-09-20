@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Stili Tags */
+
+body{
+    background-color: black;
+}
+
+/* Stili  Classi*/
+
+.containerHeader{
+    padding: 10px 20px;
+    text-align: right;
+}
+
+.containerHeader__btn{
+    color: white;
+    background-color: #4b4c4f;
+    padding: 6px;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* Modifiers */
