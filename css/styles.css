@@ -133,6 +133,10 @@ body{
     background-color: rgb(74, 75, 77);
     height: 100%;
     padding: 16px 15px;
+
+}
+
+.containerFooter__endMeeting__text{
     color: red;
 }
 /* Modifiers */
