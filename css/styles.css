@@ -73,6 +73,7 @@ body{
     text-align: center;
     padding: 10px 25px;
     text-decoration: none;
+    z-index: 2;
 }
 
 .containerArrow--right{
