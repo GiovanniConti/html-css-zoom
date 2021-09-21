@@ -101,12 +101,17 @@ body{
     align-items: center;
 }
 
-.containerFooterLink{
+.containerFooterLinks{
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 14px;
     padding: 0 15px;
+}
+
+.containerFooterLinks__link{
+    text-decoration: none;
+    color: #DCDCDC;
 }
 
 .footerIcon{
